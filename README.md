@@ -31,6 +31,6 @@
  </p>
 
 ## Credits
-[Suryanarayan Renjith](https://github.com/suryanarayanrenjith)\
+[Suryanarayan Renjith](https://github.com/suryanarayanrenjith)
 
 Last Edited on: 27/10/2023
