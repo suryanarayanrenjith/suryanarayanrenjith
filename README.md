@@ -26,11 +26,11 @@
 ## Where to find me
 
   <p align='left'>
-   <a href="https://www.linkedin.com/in/suryanarayan-renjith" target="_blank"><img height="30" src="https://img.shields.io/badge/-Linkedin-%23333?style=for-the-badge&logo=Linkedin&logoColor=blue"></a>      
-   &nbsp;&nbsp;<a href="mailto:suryanarayanrenjith@gmail.com" target="_blank"><img height="30" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=red"></a>
+   <a href="https://surya.is-a.dev/Goto/?id=linkedin" target="_blank"><img height="30" src="https://img.shields.io/badge/-Linkedin-%23333?style=for-the-badge&logo=Linkedin&logoColor=blue"></a>      
+   &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=mail" target="_blank"><img height="30" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=red"></a>
  </p>
 
 ## Credits
 [Suryanarayan Renjith](https://github.com/suryanarayanrenjith)
 
-Last Edited on: 27/10/2023
+Last Edited on: 22/06/2024
