@@ -28,8 +28,8 @@
 ## Where to find me
 
   <p align='left'>
-   <a href="https://surya.is-a.dev/" target="_blank"><img height="30" src="./icons/globe.png"></a>
-   <a href="https://surya.is-a.dev/Goto/?id=mail" target="_blank"><img height="30" src="./icons/email.png"></a>      
+   <a href="https://surya.is-a.dev/" target="_blank"><img height="30" src="./icons/earth.png"></a>
+   &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=mail" target="_blank"><img height="30" src="./icons/gmail.png"></a>      
    &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=linkedin" target="_blank"><img height="30" src="./icons/linkedin.png"></a>
    &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=twitter" target="_blank"><img height="30" src="./icons/twitter.png"></a>
  </p>
