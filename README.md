@@ -28,9 +28,10 @@
 ## Where to find me
 
   <p align='left'>
-   <a href="https://surya.is-a.dev/Goto/?id=mail" target="_blank"><img height="30" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=red"></a>      
-   &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=linkedin" target="_blank"><img height="30" src="https://img.shields.io/badge/-Linkedin-%23333?style=for-the-badge&logo=Linkedin&logoColor=blue"></a>
-   &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=twitter" target="_blank"><img height="30" src="https://img.shields.io/badge/-Twitter-%23333?style=for-the-badge&logo=X&logoColor=black"></a>
+   <a href="https://surya.is-a.dev/" target="_blank"><img height="30" src="./icons/globe.png"></a>
+   <a href="https://surya.is-a.dev/Goto/?id=mail" target="_blank"><img height="30" src="./icons/email.png"></a>      
+   &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=linkedin" target="_blank"><img height="30" src="./icons/linkedin.png"></a>
+   &nbsp;&nbsp;<a href="https://surya.is-a.dev/Goto/?id=twitter" target="_blank"><img height="30" src="./icons/twitter.png"></a>
  </p>
 
 ## Credits
