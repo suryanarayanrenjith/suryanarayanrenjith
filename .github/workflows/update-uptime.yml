@@ -13,18 +13,18 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch uptime from Cloudflare Worker
+      - name: Check uptime from Cloudflare Worker
         run: |
           curl -s https://uptime.suryanarayanrenjith.workers.dev | jq '{
             schemaVersion: 1,
             label: "Uptime",
             message: (.status == "online"
-                      ? "🟢 Online (" + .responseTime + ")"
-                      : "🔴 Down"),
+              ? "🟢 Online (" + .responseTime + ")"
+              : "🔴 Down"),
             color: (.status == "online" ? "brightgreen" : "red")
           }' > .github/status.json
 
-      - name: Commit & push
+      - name: Commit & push update
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
