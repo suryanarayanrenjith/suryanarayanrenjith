@@ -18,7 +18,9 @@ jobs:
           curl -s https://uptime.suryanarayanrenjith.workers.dev | jq '{
             schemaVersion: 1,
             label: "Uptime",
-            message: .status,
+            message: (.status == "online"
+                      ? "🟢 Online (" + .responseTime + ")"
+                      : "🔴 Down"),
             color: (.status == "online" ? "brightgreen" : "red")
           }' > .github/status.json
 
