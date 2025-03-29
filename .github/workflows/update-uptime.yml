@@ -22,8 +22,8 @@ jobs:
             schemaVersion: 1,
             label: "Uptime",
             message: (if .status == "online"
-                      then "🟢 Online (" + .responseTime + ")"
-                      else "🔴 Down"
+                      then "Online (" + .responseTime + ") [" + (.code | tostring) + "]"
+                      else "Down [" + (.code | tostring) + "]"
                       end),
             color: (if .status == "online" then "brightgreen" else "red" end)
           }' > .github/status.json
