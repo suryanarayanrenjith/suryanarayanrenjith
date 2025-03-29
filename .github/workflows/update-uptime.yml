@@ -1,0 +1,31 @@
+name: Update Uptime Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-uptime:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch uptime from Cloudflare Worker
+        run: |
+          curl -s https://uptime.suryanarayanrenjith.workers.dev | jq '{
+            schemaVersion: 1,
+            label: "Uptime",
+            message: .status,
+            color: (.status == "online" ? "brightgreen" : "red")
+          }' > .github/status.json
+
+      - name: Commit & push
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add .github/status.json
+          git commit -m "Update uptime badge" || echo "No changes to commit"
+          git push
