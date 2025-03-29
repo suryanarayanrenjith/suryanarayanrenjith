@@ -13,15 +13,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Check uptime from Cloudflare Worker
+      - name: Check uptime from Cloudflare Worker and generate badge
         run: |
           curl -s https://uptime.suryanarayanrenjith.workers.dev | jq '{
             schemaVersion: 1,
             label: "Uptime",
-            message: (.status == "online"
-              ? "🟢 Online (" + .responseTime + ")"
-              : "🔴 Down"),
-            color: (.status == "online" ? "brightgreen" : "red")
+            message: (if .status == "online"
+                      then "🟢 Online (" + .responseTime + ")"
+                      else "🔴 Down"
+                      end),
+            color: (if .status == "online" then "brightgreen" else "red" end)
           }' > .github/status.json
 
       - name: Commit & push update
