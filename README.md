@@ -5,8 +5,8 @@
 </p>
 
 - 👋 Hi, I’m **Suryanarayan Renjith**
-- 👀 I’m interested in **C# Programming**, **Web Development** and **Game Development**.
-- 🌱 I’m currently learning **C# Programming** and **Python Programming**.
+- 👀 I’m interested in **Cyber Security**, **Web Development** and **Game Development**.
+- 🌱 I’m currently learning **Python Programming**.
 - 👀 I’m looking to collaborate on **Open-Source** Projects.
 - 🐧 I like **GNU/Linux**.
 - 😄 Pronouns **He/Him**.
@@ -50,4 +50,4 @@
 
 [Suryanarayan Renjith](https://github.com/suryanarayanrenjith)
 
-_Last edited on: 23/03/2025_
+_Last edited on: 29/03/2025_
