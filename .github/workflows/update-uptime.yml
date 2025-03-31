@@ -18,7 +18,7 @@ jobs:
 
       - name: Check uptime from Cloudflare Worker and generate badge
         run: |
-          curl -s https://uptime.suryanarayanrenjith.workers.dev | jq '{
+          curl -s https://uptime.surya-ops.workers.dev | jq '{
             schemaVersion: 1,
             label: "Uptime",
             message: (if .status == "online"
